@@ -1,0 +1,25 @@
+<md-sidenav-container>
+
+  <md-sidenav id="md-sidenav" #start mode="over">
+    <sidebar-menu></sidebar-menu>
+  </md-sidenav>
+
+  <md-content>
+    <md-toolbar color="primary">
+      <button md-icon-button *ngIf="!appState.state.menuIsHidden" (click)="start.toggle()"><i
+        class="fa fa-bars"></i></button>
+
+      <span>{{ name }}</span>
+
+    </md-toolbar>
+
+    <md-progress-bar mode="indeterminate" color="primary" *ngIf="loading"></md-progress-bar>
+
+    <router-outlet></router-outlet>
+
+
+    <footer>
+      <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
+    </footer>
+  </md-content>
+</md-sidenav-container>

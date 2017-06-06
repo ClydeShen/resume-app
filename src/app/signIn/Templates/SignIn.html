@@ -1,0 +1,51 @@
+<div class="sign-in ui-grid">
+  <div class="SignLogo">
+    <div class="SignLogo-img"></div>
+    <h2>Zambion</h2>
+  </div>
+  <p> Wellcome XXXXXX</p>
+  <form (submit)="doLogin($event)">
+    <div class="user-pin">
+      <div class="ui-grid-row">
+
+        <div class="ui-grid-12">
+
+          <label for="username">username</label>
+          <input id="username" [(ngModel)]="formData.username" name="username" type="text"/>
+        </div>
+        <div class="ui-grid-12">
+
+          <label for="pin">pin</label>
+          <input id="pin" [(ngModel)]="formData.password" name="pin" type="password"/>
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="pin-panel">
+      <div class="ui-grid-row">
+        <a md-button class="ui-grid-col-4">1</a>
+        <a md-button class="ui-grid-col-4">2</a>
+        <a md-button class="ui-grid-col-4">3</a>
+      </div>
+      <div class="ui-grid-row">
+        <a md-button class="ui-grid-col-4">4</a>
+        <a md-button class="ui-grid-col-4">5</a>
+        <a md-button class="ui-grid-col-4">6</a>
+      </div>
+      <div class="ui-grid-row">
+        <a md-button class="ui-grid-col-4">7</a>
+        <a md-button class="ui-grid-col-4">8</a>
+        <a md-button class="ui-grid-col-4">9</a>
+      </div>
+      <div class="ui-grid-row">
+        <a md-button class="ui-grid-col-4">clear</a>
+        <a md-button class="ui-grid-col-4">0</a>
+        <button md-button class="ui-grid-col-4" type="submit">sign in</button>
+      </div>
+    </div>
+  </form>
+  <p>New to Zambion? Click <a router-active [routerLink]=" ['SignInToNewZambion'] ">here</a> to sign up </p>
+</div>
+

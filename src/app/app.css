@@ -1,0 +1,74 @@
+html, body{
+  height: 100%;
+  background: #F4FAFA;
+}
+button.active{
+  background: #fff;
+  color: #009688;
+}
+button.active:hover{
+  color: #fff;
+}
+.fill{
+  flex: 1 1 auto;
+}
+.app-state{
+  margin: 15px;
+  flex: 1;
+}
+.home{
+  flex: 1;
+}
+md-content{
+  /*display: flex;*/
+  flex-direction: column;
+  height: 100%;
+}
+footer{
+  flex: 0 0 60px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.ui-grid-offset-12 {
+  margin-left: 100%;
+}
+.ui-grid-offset-11 {
+  margin-left: 91.66666667%;
+}
+.ui-grid-offset-10 {
+  margin-left: 83.33333333%;
+}
+.ui-grid-offset-9 {
+  margin-left: 75%;
+}
+.ui-grid-offset-8 {
+  margin-left: 66.66666667%;
+}
+.ui-grid-offset-7 {
+  margin-left: 58.33333333%;
+}
+.ui-grid-offset-6 {
+  margin-left: 50%;
+}
+.ui-grid-offset-5 {
+  margin-left: 41.66666667%;
+}
+.ui-grid-offset-4 {
+  margin-left: 33.33333333%;
+}
+.ui-grid-offset-3 {
+  margin-left: 25%;
+}
+.ui-grid-offset-2 {
+  margin-left: 16.66666667%;
+}
+.ui-grid-offset-1 {
+  margin-left: 8.33333333%;
+}
+.ui-grid-offset-0 {
+  margin-left: 0;
+}

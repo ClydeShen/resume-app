@@ -1,0 +1,59 @@
+.SignLogo {
+  text-align: center;
+}
+
+.SignLogo-img {
+  background-image: url('./../../assets/img/Zambion_logo.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  width: 180px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.regeiter {
+  text-align: center;
+}
+
+/*.registerEmployee {*/
+
+/*}*/
+
+/*.registerEmployer {*/
+
+/*}*/
+
+.readyLogin {
+  text-align: center;
+}
+
+/*.readyLogin-login {*/
+
+/*}*/
+
+.sign-in-register-employer {
+  text-align: center;
+}
+
+/*.registerEmployer-img {*/
+
+/*}*/
+
+.sign-in {
+  text-align: center;
+}
+
+.user-pin {
+  /*border: solid 1px black;*/
+  height: 50px;
+}
+
+.pin-panel {
+  /*border: solid 1px black;*/
+  height: 350px;
+}
+
